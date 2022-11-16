@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+      }
+      form {
+        position: relative;
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <label>Dictionary</label>
+    <br />
+    <br />
+    <form>
+      <div class="formBox">
+        <label for="title">Enter words:</label>
+        <input type="text" id="word" placeholder="in the dictionary" />
+      </div>
+      <div class="formBox">
+        <button id="btn">Click to Add</button>
+      </div>
+    </form>
+    <br />
+    <br />
+    <form>
+      <div class="formBox">
+        <label for="title">Check if the given word:</label>
+        <input type="text" id="cword" placeholder="exists in the dictionary" />
+      </div>
+      <div class="formBox">
+        <button id="cbtn">Press to check</button>
+      </div>
+
+      <script src="main.js"></script>
+    </form>
+    <br />
+    <br />
+    <div id="newMessage"></div>
+  </body>
+</html>
